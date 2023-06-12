@@ -11,3 +11,4 @@ There's two fonts Minecraft's and the unifont (current version 15.0.05)
 * `character-pixels:uint32_t = character-width*character-height`
 * `character-bytes:uint32_t = character-pixels // 8 + (1 if (character-pixels % 8 > 0) else 0)`
 * `ascent` - how many pixels the glyph should be raised above the base line
+* All the numbers are big-endian
